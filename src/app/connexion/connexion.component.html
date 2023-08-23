@@ -1,0 +1,20 @@
+<div *ngIf="connexionVisible">
+    <section class="Contexte">
+
+        <form>
+            <div>
+                <h2>Connectez vous:</h2>
+
+                <label>Nom: </label>
+                <input type="text" [(ngModel)]="joueurConnecte.nom"><br>
+                <label>Mot de passe: </label>
+                <input type="password" [(ngModel)]="joueurConnecte.motDePasse"><br>
+
+                <button type="button" (click)="connexion()">Se connecter</button><br><br>
+                <button type="button" (click)="creationCompte()">Se créer un compte</button>
+
+            </div>
+        </form>
+
+    </section>
+</div>
