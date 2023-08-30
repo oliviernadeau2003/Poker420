@@ -1,0 +1,10 @@
+<div *ngIf="visible">
+    <section class="row contexte">
+        <h5>Bienvenue {{joueurConnecte.nom}}</h5>
+    </section>
+
+    <section class="row justify-content-evenly gap-3">
+        <button class="shadow oBtn col-3 rounded-3" (click)="onCreerPartie()">Creer Une Partie</button>
+        <button class="shadow oBtn col-3 rounded-3" (click)="quitterAccueil()">Quitter</button>
+    </section>
+</div>

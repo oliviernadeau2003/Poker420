@@ -1,16 +1,17 @@
 {
-  "name": "poker420",
   "main": "main.js",
-  "author": "Olivier Nadeau",
-  "description": "app pour jouer au poker",
+  "name": "poker420",
   "version": "0.0.1",
+  "author": "amartel",
+  "description": "app pouyr jouer au poker",
   "scripts": {
+    "electron": "electron .",
+    "electron-build": "ng build && electron .",
     "ng": "ng",
     "start": "electron-forge start",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "electron": "electron .",
-    "electron-build": "ng build && electron .",
+    "test": "ng test",
     "package": "electron-forge package",
     "make": "electron-forge make"
   },
